@@ -1,15 +1,15 @@
 <p align="center">
-  <h1 align="center">S</h1>
-  <h3 align="center">Hi, I’m <b>shreeshasn</b></h3>
+  <h1 align="center">Hi there!! 👋 </h1>
+  <h3 align="center">Hi, I’m <b>Shreesha</b></h3>
   <p align="center">Full-stack developer | Open-source enthusiast | Problem solver</p>
 </p>
 
 ---
 
-## 👋 About Me
+## About Me
 
 - Passionate software developer with experience in building scalable web applications and tools  
-- Skilled in JavaScript, Python, React, Node.js, and related modern technologies  
+- Skilled in  Python, JavaScript, React, Node.js, and related modern technologies  
 - Enthusiast of clean code, automation, and open-source collaboration  
 - Continuously learning and experimenting with new technologies and frameworks  
 
@@ -25,13 +25,13 @@
 
 ## 🚀 Featured Projects
 
-### Project 1 - [Project Name Here]  
-*Short description about what this project does, technologies used, and link to the repo.*
+### Project 1 - College Event Management System  
+Allows students to book seats for events. Admins can create and manage the events.
+![Collge Event System](https://github.com/shreeshasn/DBMS-and-AUTOMATION)
 
-### Project 2 - [Project Name Here]  
-*Brief overview, purpose, and technologies.*
+### Project 2 - Website AI Agent    
+(Still working on it)
 
-*(Add more projects based on your repos)*
 
 ---
 
@@ -43,11 +43,10 @@
 
 ## 💬 Get In Touch
 
-- GitHub: [https://github.com/shreeshasn](https://github.com/shreeshasn)  
-- LinkedIn: [Your LinkedIn URL]  
-- Twitter: [Your Twitter Handle]  
-- Email: your.email@example.com  
+- GitHub: ![Github](https://github.com/shreeshasn)  
+- LinkedIn:![Linkedin](https://in.linkedin.com/in/shreesha-s-nekkar-808a802a0) 
+- Email: ![Email](shreeshasnekkar81@gmail.com)
 
 ---
 
-Thanks for visiting! 🚀
+Thanks for visiting! 👋
