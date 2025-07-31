@@ -1,6 +1,6 @@
 <p align="center">
   <h1 align="center">Hi there!! 👋 </h1>
-  <h3 align="center">Hi, I’m <b>Shreesha</b></h3>
+  <h3 align="center">I’m <b>Shreesha</b></h3>
   <p align="center">Full-stack developer | Open-source enthusiast | Problem solver</p>
 </p>
 
