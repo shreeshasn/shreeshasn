@@ -26,7 +26,9 @@
 ## 🚀 Featured Projects
 
 ### Project 1 - College Event Management System  
-Allows students to book seats for events. Admins can create and manage the events.                                                                                                                                             https://github.com/shreeshasn/DBMS-and-AUTOMATION
+Allows students to book seats for events. Admins can create and manage the events. 
+<br/>
+Link:  https://github.com/shreeshasn/DBMS-and-AUTOMATION
 
 ### Project 2 - Website AI Agent    
 (Still working on it)
