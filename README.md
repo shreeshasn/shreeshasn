@@ -27,7 +27,7 @@
 
 ### Project 1 - College Event Management System  
 Allows students to book seats for events. Admins can create and manage the events.
-![Collge Event System](https://github.com/shreeshasn/DBMS-and-AUTOMATION)
+https://github.com/shreeshasn/DBMS-and-AUTOMATION
 
 ### Project 2 - Website AI Agent    
 (Still working on it)
@@ -43,9 +43,9 @@ Allows students to book seats for events. Admins can create and manage the event
 
 ## 💬 Get In Touch
 
-- GitHub: ![Github](https://github.com/shreeshasn)  
-- LinkedIn:![Linkedin](https://in.linkedin.com/in/shreesha-s-nekkar-808a802a0) 
-- Email: ![Email](shreeshasnekkar81@gmail.com)
+- GitHub: [](https://github.com/shreeshasn)  
+- LinkedIn:[](https://in.linkedin.com/in/shreesha-s-nekkar-808a802a0) 
+- Email: [](shreeshasnekkar81@gmail.com)
 
 ---
 
