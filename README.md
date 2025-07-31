@@ -1,7 +1,6 @@
 <p align="center">
-  <h1 align="center">Hi there!! 👋 </h1>
-  <h3 align="center">I’m <b>Shreesha</b></h3>
-  <p align="center">Full-stack developer | Open-source enthusiast | Problem solver</p>
+  <h1 align="center">Hi there👋!! I’m  <b><i> Shreesha </i></b> </h1>
+  <h3><p align="center">Full-stack developer | Open-source enthusiast | Problem solver</p></h3>
 </p>
 
 ---
@@ -19,7 +18,7 @@
 
 | Frontend            | Backend             | DevOps & Tools     | Other Skills         |
 |---------------------|---------------------|--------------------|----------------------|
-| React, HTML, CSS    | Node.js, Express    | Git, Docker, CI/CD | Python, SQL, REST APIs |
+| React, HTML, CSS    | Node.js, Express    | Git, Docker | Python, SQL, C, C++, Java  |
 
 ---
 
@@ -30,7 +29,7 @@ Allows students to book seats for events. Admins can create and manage the event
 <br/>
 Link:  https://github.com/shreeshasn/DBMS-and-AUTOMATION
 
-### Project 2 - Website AI Agent    
+### Project 2 - Website - AI Agent    
 (Still working on it)
 
 
