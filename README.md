@@ -1,43 +1,31 @@
 <p align="center">
   <h1 align="center">Hi there👋!! I’m  <b><i> Shreesha </i></b> </h1>
-  <h3><p align="center">Full-stack developer | Open-source enthusiast | Problem solver</p></h3>
+  <h3><p align="center">Software Engineer | AI-Integrated Systems | Full Stack | Algorithmic Problem Solver</p></h3>
 </p>
 
 ---
 
 ## About Me
 
-- Passionate software developer with experience in building scalable web applications and tools  
-- Skilled in  Python, JavaScript, React, Node.js, and related modern technologies  
-- Enthusiast of clean code, automation, and open-source collaboration  
-- Continuously learning and experimenting with new technologies and frameworks  
+Software Developer and AIML Engineer building scalable systems and intelligent applications. Strong in C, Java, and Python with 100+ DSA problems solved. Interested in full-stack development, AI-integrated systems, and research-driven engineering.<br/> <h4> <b> Always learning. Always building.</h4> </b> 
 
 ---
 
 ## 🔧 Technologies & Tools
 
-| Frontend            | Backend             | DevOps & Tools     | Other Skills         |
+| Frontend            | Backend             | DevOps & Tools     | Programming Languages |
 |---------------------|---------------------|--------------------|----------------------|
-| React, HTML, CSS    | Node.js, Express    | Git, Docker | Python, SQL, C, C++, Java  |
+| React.js, Angular, Typescript | Node.js, Express, MongoDB | Git, Docker, Jenkins | Java, Python, C|
 
 ---
 
 ## 🚀 Featured Projects
 
-### Project 1 - College Event Management System  
-Allows students to book seats for events. Admins can create and manage the events. 
+### Project 1 - The Devil's Advocate ⚔️  
+An autonomous multi-agent consensus system where three AI agents debate complex topics to eliminate hallucinations and deliver fact-checked verdicts. 
 <br/>
-Link:  https://github.com/shreeshasn/DBMS-and-AUTOMATION
-
-### Project 2 - Website - AI Agent    
-(Still working on it)
-
-
----
-
-## 📈 GitHub Stats
-
-![shreeshasn's GitHub stats](https://github-readme-stats.vercel.app/api?username=shreeshasn&show_icons=true&theme=dark)
+<a href="https://github.com/shreeshasn/The-Devil-s-Advocate"> 🔎 Repo Link </a> <br/>
+<a href="https://the-devil-s-advocate.vercel.app"> 🔗 Deployed Website </a>
 
 ---
 
