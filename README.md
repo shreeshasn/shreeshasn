@@ -30,9 +30,8 @@ An autonomous multi-agent consensus system where three AI agents debate complex 
 ---
 
 ## 💬 Get In Touch
-
-- GitHub: https://github.com/shreeshasn  
-- LinkedIn: https://in.linkedin.com/in/shreesha-s-nekkar-808a802a0
+ 
+- LinkedIn: https://in.linkedin.com/in/shreesha-s-nekkar/
 - Email: shreeshasnekkar81@gmail.com
 
 ---
