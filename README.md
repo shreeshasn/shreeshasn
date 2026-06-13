@@ -1,139 +1,186 @@
-<p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=36&duration=2500&pause=2400&color=00FF88&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Shreesha" />
-</p>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0f0c29,50:302b63,100:24243e&height=160&section=header&text=SSN.SYS&fontSize=72&fontColor=58a6ff&animation=blinking&fontAlignY=55" width="100%"/>
+</div>
+
+<div align="center">
+
+```text
+> initializing Shreesha S Nekkar...
+> loading: AI engineer, full-stack dev, chaos architect
+> status: ONLINE 🟢
+```
+
+<a href="https://readme-typing-svg.demolab.com">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=I+build+things+that+think+%F0%9F%A7%A0;Multi-agent+systems+%2B+microservices+%2B+vibes;Currently+shipping+VoxGlobal+AI+%40+Artsy+Tech;131M+rows+processed.+Still+not+impressed.;sudo+apt+install+good-ideas+--no-confirm"/>
+</a>
+
+</div>
 
 ---
 
-<h3 align="center">
-  <i>Building Scalable Systems, Developer Tools, and AI-Integrated Applications</i>
-</h3>
+### `$ cat about.txt`
 
-<p align="center">
-  <a href="https://in.linkedin.com/in/shreesha-s-nekkar/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://leetcode.com/u/Shreesha81/">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
-  </a>
-  <a href="https://www.hackerrank.com/profile/vvce23cse0189">
-    <img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black"/>
-  </a>
-  <a href="mailto:shreeshasnekkar81@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</p>
+```yaml
+name: Shreesha S Nekkar
+handle: @shreeshasn
+role: Software Engineer
+base: Mysuru, Karnataka 🇮🇳
 
----
+status: Building AI that doesn't hallucinate (most of the time)
 
-# 👨‍💻 About Me
+current:
+  VoxGlobal AI @ Artsy Technologies
+  → event-driven dubbing platform
+  → 3 microservices, 1 intern, 0 sleep
 
-Backend-focused software developer building **developer tools, scalable backend systems, and AI-integrated applications**.
+vibe: "GUI is just CLI with extra steps"
 
-I enjoy designing systems that **analyze, automate, and improve developer workflows** — from AI pipelines to repository analysis platforms.
+seeking:
+  Interesting problems + good engineers
+```
 
-**Current focus**
-
-- Backend engineering with **Java & Spring Boot**
-- **AI-integrated systems**
-- **developer tooling**
-
-Solved **100+ DSA problems** across LeetCode and HackerRank.
-
-> Always building. Always learning.
+<br clear="right"/>
 
 ---
 
-# 🧩 Engineering Toolkit
+### `$ ls -la projects/ | grep featured`
 
-### 💻 Languages
-
-<p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-</p>
-
-
-### 🎨 Frontend
-
-<p>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-</p>
-
-
-### ⚙ Backend
-
-<p>
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-  <img src="https://img.shields.io/badge/WebFlux-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
-</p>
-
-
-### 🗄 Databases & Dev Tools
-
-<p>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Caffeine_Cache-F7DF1E?style=for-the-badge&logo=coffeescript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-</p>
-
-### ☁ Deployment & Platforms
-
-<p>
-  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-</p>
+<div align="center">
+  <table border="0">
+    <tr>
+      <td align="center">
+        <a href="https://github.com/shreeshasn/VoxGlobal_AI">
+          <img src="./assets/voxglobal.svg" width="380" alt="VoxGlobal AI" />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/shreeshasn/Platonis.AI">
+          <img src="./assets/platonis.svg" width="380" alt="Platonis.AI" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/shreeshasn/Noetis.AI">
+          <img src="./assets/noetis.svg" width="380" alt="Noetis.AI" />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://audita.onrender.com">
+          <img src="./assets/audita.svg" width="380" alt="Audita" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
-# 🚀 Featured Projects
+### `$ ./stack.sh --show-all`
 
-### ⬡ Audita — GitHub Repository Health Analyzer
+<div align="center">
 
-Audits any public GitHub repository and generates a **health score out of 100** based on engineering quality signals such as documentation, CI/CD pipelines, Docker setup, and release cadence.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
-<p>
-  <a href="https://github.com/shreeshasn/Audita">
-    <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <a href="https://audita-nkss.onrender.com">
-    <img src="https://img.shields.io/badge/Live_Demo-46E3B7?style=for-the-badge&logo=render&logoColor=black"/>
-  </a>
-</p>
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=next.js&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 
----
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
 
-### ⚔️ The Devil's Advocate
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
+![D3.js](https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3.js&logoColor=white)
 
-Autonomous **multi-agent AI system** where three agents debate complex topics to reduce hallucinations and produce structured, fact-checked conclusions.
-
-<p>
-  <a href="https://github.com/shreeshasn/The-Devil-s-Advocate">
-    <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <a href="https://the-devil-s-advocate.vercel.app">
-    <img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-  </a>
-</p>
+</div>
 
 ---
 
-<p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3000&pause=3000&color=00FF88&center=true&vCenter=true&width=500&lines=Thanks+for+visiting+my+profile+%F0%9F%91%8B;Feel+free+to+explore+my+projects!" />
-</p>
+### `$ git shortlog --contributions`
 
-<p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=shreeshasn&style=flat-square&color=00ff88"/>
-</p>
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shreeshasn&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ff9f0a&area=true&area_color=0d2137&hide_border=false&custom_title=Contribution%20Graph)](https://github.com/shreeshasn)
+
+<br>
+
+</div>
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td align="center" valign="top">
+        <a href="https://github.com/shreeshasn">
+          <img src="https://github-readme-stats.vercel.app/api?username=shreeshasn&show_icons=true&theme=tokyonight&hide_border=false&bg_color=0d1117&title_color=58a6ff&icon_color=ff9f0a&text_color=c9d1d9&rank_icon=github&hide=contribs" height="195" alt="GitHub Readme Stats" />
+        </a>
+      </td>
+      <td align="center" valign="top">
+        <a href="https://github.com/shreeshasn">
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=shreeshasn&theme=tokyonight&hide_border=false&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff9f0a&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=c9d1d9" height="195" alt="GitHub Streak Stats" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" colspan="2">
+        <br/>
+        <a href="https://github.com/shreeshasn">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreeshasn&layout=donut&langs_count=5&theme=tokyonight&hide_border=false&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="195" alt="Top Languages" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+### `$ python3 -c "import me; me.snake()"`
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shreeshasn/shreeshasn/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shreeshasn/shreeshasn/output/github-contribution-grid-snake.svg"/>
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/shreeshasn/shreeshasn/output/github-contribution-grid-snake-dark.svg"/>
+</picture>
+
+</div>
+
+---
+
+### `$ ping me --connect`
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shreesha-s-nekkar)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0f0c29?style=for-the-badge&logo=safari&logoColor=58a6ff)](https://shreeshasn.github.io)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shreeshasnekkar81@gmail.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Shreesha81/)
+[![X](https://img.shields.io/badge/X-000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/shreeshasn)
+
+<br/>
+
+![Status](https://img.shields.io/badge/open%20to-internships%20%26%20collabs-30d158?style=for-the-badge)
+
+![Visitor Count](https://komarev.com/ghpvc/?username=shreeshasn&label=profile+views&color=58a6ff&style=for-the-badge)
+
+<br/>
+
+```c
+/* TODO: write a funnier quote */
+
+cat /dev/brutalist-portfolio | grep awesome
+
+Real developers don't need buttons.
+— SSN, probably
+```
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=100&section=footer" width="100%"/>
+
+</div>

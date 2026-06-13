@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="180" viewBox="0 0 400 180" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    
+    <!-- Border Gradient: Gold to Orange/Red -->
+    <linearGradient id="border-grad-aud" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#ef4444" />
+    </linearGradient>
+    
+    <!-- Title Text Gradient -->
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f87171" />
+    </linearGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Card Body -->
+  <rect x="2" y="2" width="396" height="176" rx="14" fill="url(#bg-grad)" stroke="url(#border-grad-aud)" stroke-width="2" filter="url(#shadow)" />
+
+  <!-- Title -->
+  <text x="24" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="url(#title-grad)">🔍 Audita</text>
+
+  <!-- Status / Role Badge -->
+  <rect x="290" y="16" width="86" height="22" rx="11" fill="#451a03" stroke="#78350f" stroke-width="1" />
+  <text x="333" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#fbbf24" text-anchor="middle">Live · Solo</text>
+
+  <!-- Separator line -->
+  <line x1="24" y1="52" x2="376" y2="52" stroke="#1f2937" stroke-width="1" />
+
+  <!-- Description -->
+  <foreignObject x="24" y="64" width="352" height="60">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: system-ui, -apple-system, sans-serif; font-size: 13px; color: #9ca3af; line-height: 1.5; font-weight: 400; margin: 0; padding: 0;">
+      GitHub repository health auditor built with reactive architecture and intelligent caching.
+    </div>
+  </foreignObject>
+
+  <!-- Tech Stack Badges -->
+  <g transform="translate(0, 136)">
+    <!-- Spring Boot -->
+    <rect x="24" y="0" width="75" height="20" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1" />
+    <text x="61" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#fbbf24" text-anchor="middle">Spring Boot</text>
+
+    <!-- Java -->
+    <rect x="107" y="0" width="44" height="20" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1" />
+    <text x="129" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#fbbf24" text-anchor="middle">Java</text>
+
+    <!-- React -->
+    <rect x="159" y="0" width="48" height="20" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1" />
+    <text x="183" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#fbbf24" text-anchor="middle">React</text>
+
+    <!-- GitHub API -->
+    <rect x="215" y="0" width="76" height="20" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1" />
+    <text x="253" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#fbbf24" text-anchor="middle">GitHub API</text>
+  </g>
+</svg>
