@@ -127,7 +127,7 @@ seeking:
       </td>
       <td align="center" valign="top" style="padding-left: 10px;">
         <a href="https://github.com/shreeshasn">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreeshasn&layout=donut&langs_count=5&theme=tokyonight&hide_border=false&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="390" alt="Top Languages" />
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreeshasn&layout=pie&langs_count=5&theme=tokyonight&hide_border=false&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="390" alt="Top Languages" />
         </a>
       </td>
     </tr>
