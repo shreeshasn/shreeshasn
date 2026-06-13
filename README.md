@@ -116,22 +116,20 @@ seeking:
 <div align="center">
   <table border="0">
     <tr>
-      <td align="center" valign="top">
+      <td align="center" valign="center">
         <a href="https://github.com/shreeshasn">
-          <img src="https://github-readme-stats.vercel.app/api?username=shreeshasn&show_icons=true&theme=tokyonight&hide_border=false&bg_color=0d1117&title_color=58a6ff&icon_color=ff9f0a&text_color=c9d1d9&rank_icon=github&hide=contribs" height="195" alt="GitHub Readme Stats" />
+          <img src="https://github-readme-stats.vercel.app/api?username=shreeshasn&show_icons=true&theme=tokyonight&hide_border=false&bg_color=0d1117&title_color=58a6ff&icon_color=ff9f0a&text_color=c9d1d9&rank_icon=github&hide=contribs" height="165" width="400" alt="GitHub Readme Stats" />
+        </a>
+      <!-- </td>
+      <td align="left" valign="bottom"> -->
+        <a href="https://github.com/shreeshasn">
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=shreeshasn&theme=tokyonight&hide_border=false&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff9f0a&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=c9d1d9" height="165" width="400"alt="GitHub Streak Stats" />
         </a>
       </td>
-      <td align="center" valign="top">
-        <a href="https://github.com/shreeshasn">
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=shreeshasn&theme=tokyonight&hide_border=false&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff9f0a&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=c9d1d9" height="195" alt="GitHub Streak Stats" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" valign="top" colspan="2">
+      <td align="center" valign="center" colspan="2">
         <br/>
         <a href="https://github.com/shreeshasn">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreeshasn&layout=donut&langs_count=5&theme=tokyonight&hide_border=false&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="195" alt="Top Languages" />
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreeshasn&layout=pie&card_width=400&langs_count=10&theme=tokyonight&hide_border=false&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="1000" alt="Top Languages" />
         </a>
       </td>
     </tr>
@@ -152,7 +150,7 @@ seeking:
 
 </div>
 
----
+---  
 
 ### `$ ping me --connect`
 
