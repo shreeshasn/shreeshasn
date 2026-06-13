@@ -120,14 +120,17 @@ seeking:
         <a href="https://github.com/shreeshasn">
           <img src="https://github-readme-stats.vercel.app/api?username=shreeshasn&show_icons=true&theme=tokyonight&hide_border=false&bg_color=0d1117&title_color=58a6ff&icon_color=ff9f0a&text_color=c9d1d9&rank_icon=github&hide=contribs" height="195" alt="GitHub Readme Stats" />
         </a>
-        <br/>
+      </td>
+      <td align="center" valign="top" rowspan="2" style="padding-left: 10px;">
         <a href="https://github.com/shreeshasn">
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=shreeshasn&theme=tokyonight&hide_border=false&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff9f0a&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=c9d1d9" height="195" alt="GitHub Streak Stats" />
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreeshasn&layout=pie&langs_count=10&theme=tokyonight&hide_border=false&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="400" alt="Top Languages" />
         </a>
       </td>
-      <td align="center" valign="top" style="padding-left: 10px;">
+    </tr>
+    <tr>
+      <td align="center" valign="top" style="padding-top: 10px;">
         <a href="https://github.com/shreeshasn">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreeshasn&layout=pie&langs_count=5&theme=tokyonight&hide_border=false&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="390" alt="Top Languages" />
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=shreeshasn&theme=tokyonight&hide_border=false&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff9f0a&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=c9d1d9" height="195" alt="GitHub Streak Stats" />
         </a>
       </td>
     </tr>
