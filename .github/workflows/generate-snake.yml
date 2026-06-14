@@ -42,15 +42,15 @@ jobs:
           username: ${{ github.repository_owner }}
           token: ${{ secrets.PERSONAL_TOKEN }}
           output-path: dist/assets/github-streak-stats.svg
-          background: 0d1117
-          stroke: 58a6ff
-          ring: 58a6ff
-          fire: 58a6ff
-          currStreakNum: 58a6ff
-          sideNums: 58a6ff
-          currStreakLabel: 58a6ff
-          sideLabels: c9d1d9
-          dates: c9d1d9
+          background: "0d1117"
+          stroke: "58a6ff"
+          ring: "58a6ff"
+          fire: "58a6ff"
+          currStreakNum: "58a6ff"
+          sideNums: "58a6ff"
+          currStreakLabel: "58a6ff"
+          sideLabels: "c9d1d9"
+          dates: "c9d1d9"
           hide-border: false
 
       # 4. Clone github-readme-stats, run locally, and generate cards
