@@ -31,8 +31,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=white&color_dots=#161b22,#7dd3fc,#38bdf8,#0ea5e9,#0284c7
+            dist/github-contribution-grid-snake-dark.svg?color_snake=white&color_dots=#161b22,#7dd3fc,#38bdf8,#0ea5e9,#0284c7
           github_token: ${{ secrets.PERSONAL_TOKEN }}
 
       # 3. Generate Streak Stats
@@ -42,7 +42,14 @@ jobs:
           username: ${{ github.repository_owner }}
           token: ${{ secrets.PERSONAL_TOKEN }}
           output-path: dist/assets/github-streak-stats.svg
-          theme: tokyonight
+          background: 0d1117
+          border: 58a6ff
+          stroke: 58a6ff
+          ring: 58a6ff
+          fire: 58a6ff
+          currStreakLabel: 58a6ff
+          sideLabels: c9d1d9
+          dates: c9d1d9
           hide-border: false
 
       # 4. Clone github-readme-stats, run locally, and generate cards
@@ -62,8 +69,8 @@ jobs:
 
       - name: Download Stats and Languages SVGs
         run: |
-          curl "http://localhost:9000/api?username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=false&bg_color=0d1117&title_color=58a6ff&icon_color=ff9f0a&text_color=c9d1d9&rank_icon=github&hide=contribs" -o dist/assets/github-readme-stats.svg
-          curl "http://localhost:9000/api/top-langs/?username=${{ github.repository_owner }}&layout=pie&langs_count=10&theme=tokyonight&hide_border=false&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&card_width=350&count_private=true" -o dist/assets/github-top-langs.svg
+          curl "http://localhost:9000/api?username=${{ github.repository_owner }}&show_icons=true&hide_border=false&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&border_color=58a6ff&rank_icon=github&hide=contribs" -o dist/assets/github-readme-stats.svg
+          curl "http://localhost:9000/api/top-langs/?username=${{ github.repository_owner }}&layout=pie&langs_count=10&hide_border=false&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&border_color=58a6ff&card_width=350&count_private=true" -o dist/assets/github-top-langs.svg
         shell: bash
 
       # 5. Push all generated assets to Output Branch
