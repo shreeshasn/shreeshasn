@@ -63,7 +63,7 @@ jobs:
       - name: Download Stats and Languages SVGs
         run: |
           curl "http://localhost:9000/api?username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=false&bg_color=0d1117&title_color=58a6ff&icon_color=ff9f0a&text_color=c9d1d9&rank_icon=github&hide=contribs" -o dist/assets/github-readme-stats.svg
-          curl "http://localhost:9000/api/top-langs/?username=${{ github.repository_owner }}&layout=pie&langs_count=10&theme=tokyonight&hide_border=false&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&card_width=350" -o dist/assets/github-top-langs.svg
+          curl "http://localhost:9000/api/top-langs/?username=${{ github.repository_owner }}&layout=pie&langs_count=10&theme=tokyonight&hide_border=false&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&card_width=350&count_private=true" -o dist/assets/github-top-langs.svg
         shell: bash
 
       # 5. Push all generated assets to Output Branch

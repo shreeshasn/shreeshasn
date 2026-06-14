@@ -103,6 +103,7 @@ seeking:
 
 ---
 
+<!--
 ### `$ git shortlog --contributions`
 
 <div align="center">
@@ -112,6 +113,7 @@ seeking:
 <br>
 
 </div>
+-->
 
 <div align="center">
   <!--
@@ -144,19 +146,19 @@ seeking:
     <tr>
       <td align="center" valign="top">
         <a href="https://github.com/shreeshasn">
-          <img src="https://raw.githubusercontent.com/shreeshasn/shreeshasn/output/assets/github-readme-stats.svg" height="195" alt="GitHub Readme Stats" />
+          <img src="https://raw.githubusercontent.com/shreeshasn/shreeshasn/output/assets/github-readme-stats.svg" width="400" alt="GitHub Readme Stats" />
         </a>
       </td>
       <td align="center" valign="top" rowspan="2" style="padding-left: 10px;">
         <a href="https://github.com/shreeshasn">
-          <img src="https://raw.githubusercontent.com/shreeshasn/shreeshasn/output/assets/github-top-langs.svg" height="400" alt="Top Languages" />
+          <img src="https://raw.githubusercontent.com/shreeshasn/shreeshasn/output/assets/github-top-langs.svg" height="330" alt="Top Languages" />
         </a>
       </td>
     </tr>
     <tr>
       <td align="center" valign="top" style="padding-top: 10px;">
         <a href="https://github.com/shreeshasn">
-          <img src="https://raw.githubusercontent.com/shreeshasn/shreeshasn/output/assets/github-streak-stats.svg" height="195" alt="GitHub Streak Stats" />
+          <img src="https://raw.githubusercontent.com/shreeshasn/shreeshasn/output/assets/github-streak-stats.svg" width="400" alt="GitHub Streak Stats" />
         </a>
       </td>
     </tr>
