@@ -6,12 +6,12 @@
 
 ```text
 > initializing Shreesha S Nekkar...
-> loading: AI engineer, full-stack dev, chaos architect
+> loading: Software engineer, AI-full-stack dev, chaos architect
 > status: ONLINE 🟢
 ```
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=I+build+things+that+think+%F0%9F%A7%A0;Multi-agent+systems+%2B+microservices+%2B+vibes;Currently+shipping+VoxGlobal+AI+%40+Artsy+Tech;131M+rows+processed.+Still+not+impressed.;sudo+apt+install+good-ideas+--no-confirm"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=I+build+things+that+think+%F0%9F%A7%A0;AI+systems+%2B+microservices+%2B+vibes;Currently+shipping+VoxGlobal+AI+%40+Artsy+Tech;131M+rows+processed.+Still+not+impressed.;sudo+apt+install+good-ideas+--no-confirm"/>
 </a>
 
 </div>
@@ -26,7 +26,7 @@ handle: @shreeshasn
 role: Software Engineer
 base: Mysuru, Karnataka 🇮🇳
 
-status: Building AI that doesn't hallucinate (most of the time)
+status: Building projects that doesn't break (most of the time)
 
 current:
   VoxGlobal AI @ Artsy Technologies

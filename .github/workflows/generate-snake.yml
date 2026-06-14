@@ -1,4 +1,4 @@
-name: Generate Snake
+name: Generate Snake and Stats
 
 on:
   schedule:
@@ -15,9 +15,17 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # 1. Setup directories
+      - name: Create dist and assets directories
+        run: mkdir -p dist/assets
+
+      # 2. Generate Contribution Snake
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
@@ -27,7 +35,39 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
           github_token: ${{ secrets.PERSONAL_TOKEN }}
 
-      - name: Push github-contribution-grid-snake.svg to Output Branch
+      # 3. Generate Streak Stats
+      - name: Generate Streak Stats Card
+        uses: be-next/github-streak-stats-action@v1
+        with:
+          username: ${{ github.repository_owner }}
+          token: ${{ secrets.PERSONAL_TOKEN }}
+          output-path: dist/assets/github-streak-stats.svg
+          theme: tokyonight
+          hide-border: false
+
+      # 4. Clone github-readme-stats, run locally, and generate cards
+      - name: Checkout github-readme-stats
+        uses: actions/checkout@v4
+        with:
+          repository: anuraghazra/github-readme-stats
+          path: temp-github-readme-stats
+
+      - name: Install & Run local github-readme-stats
+        run: |
+          cd temp-github-readme-stats
+          npm install
+          PORT=9000 PAT_1=${{ secrets.PERSONAL_TOKEN }} node express.js &
+          sleep 10
+        shell: bash
+
+      - name: Download Stats and Languages SVGs
+        run: |
+          curl "http://localhost:9000/api?username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=false&bg_color=0d1117&title_color=58a6ff&icon_color=ff9f0a&text_color=c9d1d9&rank_icon=github&hide=contribs" -o dist/assets/github-readme-stats.svg
+          curl "http://localhost:9000/api/top-langs/?username=${{ github.repository_owner }}&layout=pie&langs_count=10&theme=tokyonight&hide_border=false&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&card_width=350" -o dist/assets/github-top-langs.svg
+        shell: bash
+
+      # 5. Push all generated assets to Output Branch
+      - name: Push Assets to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
