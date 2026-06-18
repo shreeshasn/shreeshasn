@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="180" viewBox="0 0 400 180" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    
+    <!-- Border Gradient: Dark Blue to Ocean Blue -->
+    <linearGradient id="border-grad-plat" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#58a6ff" />
+    </linearGradient>
+    
+    <!-- Title Text Gradient -->
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" />
+      <stop offset="100%" stop-color="#85b9ff" />
+    </linearGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Card Body -->
+  <rect x="2" y="2" width="396" height="176" rx="14" fill="url(#bg-grad)" stroke="url(#border-grad-plat)" stroke-width="2" filter="url(#shadow)" />
+
+  <!-- Title -->
+  <text x="24" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="url(#title-grad)">🧠 Platonis.AI</text>
+
+  <!-- Status / Role Badge -->
+  <rect x="290" y="16" width="86" height="22" rx="11" fill="#0f172a" stroke="#1f6feb" stroke-width="1" />
+  <text x="333" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#58a6ff" text-anchor="middle">WIP · Solo</text>
+
+  <!-- Separator line -->
+  <line x1="24" y1="52" x2="376" y2="52" stroke="#1f2937" stroke-width="1" />
+
+  <!-- Description -->
+  <foreignObject x="24" y="64" width="352" height="60">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: system-ui, -apple-system, sans-serif; font-size: 13px; color: #9ca3af; line-height: 1.5; font-weight: 400; margin: 0; padding: 0;">
+      RAG-powered placement prep platform with mock interviews, speech scoring, and adaptive assessments.
+    </div>
+  </foreignObject>
+
+  <!-- Tech Stack Badges -->
+  <g transform="translate(0, 136)">
+    <!-- LangChain -->
+    <rect x="24" y="0" width="72" height="20" rx="6" fill="#0f172a" stroke="#1f6feb" stroke-width="1" />
+    <text x="60" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#58a6ff" text-anchor="middle">LangChain</text>
+
+    <!-- ChromaDB -->
+    <rect x="104" y="0" width="72" height="20" rx="6" fill="#0f172a" stroke="#1f6feb" stroke-width="1" />
+    <text x="140" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#58a6ff" text-anchor="middle">ChromaDB</text>
+
+    <!-- FastAPI -->
+    <rect x="184" y="0" width="58" height="20" rx="6" fill="#0f172a" stroke="#1f6feb" stroke-width="1" />
+    <text x="213" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#58a6ff" text-anchor="middle">FastAPI</text>
+
+    <!-- PyTorch -->
+    <rect x="250" y="0" width="58" height="20" rx="6" fill="#0f172a" stroke="#1f6feb" stroke-width="1" />
+    <text x="279" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#58a6ff" text-anchor="middle">PyTorch</text>
+
+    <!-- Next.js -->
+    <rect x="316" y="0" width="58" height="20" rx="6" fill="#0f172a" stroke="#1f6feb" stroke-width="1" />
+    <text x="345" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#58a6ff" text-anchor="middle">Next.js</text>
+  </g>
+</svg>

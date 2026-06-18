@@ -50,24 +50,40 @@ seeking:
     <tr>
       <td align="center">
         <a href="https://github.com/shreeshasn/VoxGlobal_AI">
-          <img src="./assets/voxglobal.svg" width="380" alt="VoxGlobal AI" />
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="./assets/voxglobal-dark.svg"/>
+            <source media="(prefers-color-scheme: light)" srcset="./assets/voxglobal.svg"/>
+            <img src="./assets/voxglobal-dark.svg" width="380" alt="VoxGlobal AI" />
+          </picture>
         </a>
       </td>
       <td align="center">
         <a href="https://github.com/shreeshasn/Platonis.AI">
-          <img src="./assets/platonis.svg" width="380" alt="Platonis.AI" />
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="./assets/platonis-dark.svg"/>
+            <source media="(prefers-color-scheme: light)" srcset="./assets/platonis.svg"/>
+            <img src="./assets/platonis-dark.svg" width="380" alt="Platonis.AI" />
+          </picture>
         </a>
       </td>
     </tr>
     <tr>
       <td align="center">
         <a href="https://github.com/shreeshasn/Noetis.AI">
-          <img src="./assets/noetis.svg" width="380" alt="Noetis.AI" />
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="./assets/noetis-dark.svg"/>
+            <source media="(prefers-color-scheme: light)" srcset="./assets/noetis.svg"/>
+            <img src="./assets/noetis-dark.svg" width="380" alt="Noetis.AI" />
+          </picture>
         </a>
       </td>
       <td align="center">
         <a href="https://audita.onrender.com">
-          <img src="./assets/audita.svg" width="380" alt="Audita" />
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="./assets/audita-dark.svg"/>
+            <source media="(prefers-color-scheme: light)" srcset="./assets/audita.svg"/>
+            <img src="./assets/audita-dark.svg" width="380" alt="Audita" />
+          </picture>
         </a>
       </td>
     </tr>
