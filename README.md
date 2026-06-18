@@ -181,11 +181,11 @@ seeking:
 ### `$ achievements --list`
 
 <div align="center">
-  <img src="https://github.com/Schweinepriester/github-profile-achievements/raw/main/images/pull-shark-default.png" width="60px" alt="Pull Shark" />
-  <img src="https://github.com/Schweinepriester/github-profile-achievements/raw/main/images/quickdraw-default.png" width="60px" alt="Quickdraw" />
-  <img src="https://github.com/Schweinepriester/github-profile-achievements/raw/main/images/yolo-default.png" width="60px" alt="YOLO" />
-  <img src="https://github.com/Schweinepriester/github-profile-achievements/raw/main/images/pair-extraordinaire-default.png" width="60px" alt="Pair Extraordinaire" />
-  <img src="https://github.com/Schweinepriester/github-profile-achievements/raw/main/images/galaxy-brain-default.png" width="60px" alt="Galaxy Brain" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="60px" alt="Pull Shark" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="60px" alt="Quickdraw" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="60px" alt="YOLO" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="60px" alt="Pair Extraordinaire" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-default.png" width="60px" alt="Galaxy Brain" />
 </div>
 
 ---  
