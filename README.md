@@ -181,11 +181,11 @@ seeking:
 ### `$ achievements --list`
 
 <div align="center">
-  <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="60px" alt="Pull Shark" />
-  <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="60px" alt="Quickdraw" />
-  <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="60px" alt="YOLO" />
-  <img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="60px" alt="Pair Extraordinaire" />
-  <img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-default.png" width="60px" alt="Galaxy Brain" />
+  <a href="https://github.com/shreeshasn?tab=achievements"><img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="60px" alt="Pull Shark" /></a>
+  <a href="https://github.com/shreeshasn?tab=achievements"><img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="60px" alt="Quickdraw" /></a>
+  <a href="https://github.com/shreeshasn?tab=achievements"><img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="60px" alt="YOLO" /></a>
+  <a href="https://github.com/shreeshasn?tab=achievements"><img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="60px" alt="Pair Extraordinaire" /></a>
+  <a href="https://github.com/shreeshasn?tab=achievements"><img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-default.png" width="60px" alt="Galaxy Brain" /></a>
 </div>
 
 ---  
