@@ -145,19 +145,31 @@ seeking:
     <tr>
       <td align="center" valign="top">
         <a href="https://github.com/shreeshasn">
-          <img src="https://raw.githubusercontent.com/shreeshasn/shreeshasn/output/assets/github-readme-stats.svg" width="400" alt="GitHub Readme Stats" />
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shreeshasn/shreeshasn/output/assets/github-readme-stats-dark.svg"/>
+            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shreeshasn/shreeshasn/output/assets/github-readme-stats.svg"/>
+            <img src="https://raw.githubusercontent.com/shreeshasn/shreeshasn/output/assets/github-readme-stats-dark.svg" width="400" alt="GitHub Readme Stats" />
+          </picture>
         </a>
       </td>
       <td align="center" valign="top" rowspan="2" style="padding-left: 10px;">
         <a href="https://github.com/shreeshasn">
-          <img src="https://raw.githubusercontent.com/shreeshasn/shreeshasn/output/assets/github-top-langs.svg" height="330" alt="Top Languages" />
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shreeshasn/shreeshasn/output/assets/github-top-langs-dark.svg"/>
+            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shreeshasn/shreeshasn/output/assets/github-top-langs.svg"/>
+            <img src="https://raw.githubusercontent.com/shreeshasn/shreeshasn/output/assets/github-top-langs-dark.svg" height="330" alt="Top Languages" />
+          </picture>
         </a>
       </td>
     </tr>
     <tr>
       <td align="center" valign="top" style="padding-top: 10px;">
         <a href="https://github.com/shreeshasn">
-          <img src="https://raw.githubusercontent.com/shreeshasn/shreeshasn/output/assets/github-streak-stats.svg" width="400" alt="GitHub Streak Stats" />
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shreeshasn/shreeshasn/output/assets/github-streak-stats-dark.svg"/>
+            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shreeshasn/shreeshasn/output/assets/github-streak-stats.svg"/>
+            <img src="https://raw.githubusercontent.com/shreeshasn/shreeshasn/output/assets/github-streak-stats-dark.svg" width="400" alt="GitHub Streak Stats" />
+          </picture>
         </a>
       </td>
     </tr>

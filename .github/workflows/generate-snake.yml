@@ -31,17 +31,17 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=white&color_dots=%23161b22,%230d306b,%230060b8,%231f8cff,%23a6dfff
+            dist/github-contribution-grid-snake.svg?palette=github-light
             dist/github-contribution-grid-snake-dark.svg?color_snake=white&color_dots=%23161b22,%230d306b,%230060b8,%231f8cff,%23a6dfff
           github_token: ${{ secrets.PERSONAL_TOKEN }}
 
-      # 3. Generate Streak Stats
-      - name: Generate Streak Stats Card
+      # 3. Generate Streak Stats (Dark)
+      - name: Generate Streak Stats Card (Dark)
         uses: be-next/github-streak-stats-action@v1
         with:
           username: ${{ github.repository_owner }}
           token: ${{ secrets.PERSONAL_TOKEN }}
-          output-path: dist/assets/github-streak-stats.svg
+          output-path: dist/assets/github-streak-stats-dark.svg
           background: "0d1117"
           stroke: "58a6ff"
           ring: "58a6ff"
@@ -51,6 +51,24 @@ jobs:
           currStreakLabel: "58a6ff"
           sideLabels: "c9d1d9"
           dates: "c9d1d9"
+          hide-border: false
+
+      # 3b. Generate Streak Stats (Light)
+      - name: Generate Streak Stats Card (Light)
+        uses: be-next/github-streak-stats-action@v1
+        with:
+          username: ${{ github.repository_owner }}
+          token: ${{ secrets.PERSONAL_TOKEN }}
+          output-path: dist/assets/github-streak-stats.svg
+          background: "ffffff"
+          stroke: "d0d7de"
+          ring: "0969da"
+          fire: "0969da"
+          currStreakNum: "0969da"
+          sideNums: "24292f"
+          currStreakLabel: "0969da"
+          sideLabels: "57606a"
+          dates: "57606a"
           hide-border: false
 
       # 4. Clone github-readme-stats, run locally, and generate cards
@@ -70,8 +88,12 @@ jobs:
 
       - name: Download Stats and Languages SVGs
         run: |
-          curl "http://localhost:9000/api?username=${{ github.repository_owner }}&show_icons=true&hide_border=false&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&border_color=58a6ff&rank_icon=github&hide=contribs" -o dist/assets/github-readme-stats.svg
-          curl "http://localhost:9000/api/top-langs/?username=${{ github.repository_owner }}&layout=pie&langs_count=10&hide_border=false&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&border_color=58a6ff&card_width=350&count_private=true" -o dist/assets/github-top-langs.svg
+          # Dark mode versions
+          curl "http://localhost:9000/api?username=${{ github.repository_owner }}&show_icons=true&hide_border=false&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&border_color=58a6ff&rank_icon=github&hide=contribs" -o dist/assets/github-readme-stats-dark.svg
+          curl "http://localhost:9000/api/top-langs/?username=${{ github.repository_owner }}&layout=pie&langs_count=10&hide_border=false&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&border_color=58a6ff&card_width=350&count_private=true" -o dist/assets/github-top-langs-dark.svg
+          # Light mode versions
+          curl "http://localhost:9000/api?username=${{ github.repository_owner }}&show_icons=true&hide_border=false&bg_color=ffffff&title_color=0969da&icon_color=57606a&text_color=24292f&border_color=d0d7de&rank_icon=github&hide=contribs" -o dist/assets/github-readme-stats.svg
+          curl "http://localhost:9000/api/top-langs/?username=${{ github.repository_owner }}&layout=pie&langs_count=10&hide_border=false&bg_color=ffffff&title_color=0969da&text_color=24292f&border_color=d0d7de&card_width=350&count_private=true" -o dist/assets/github-top-langs.svg
         shell: bash
 
       # 5. Push all generated assets to Output Branch
