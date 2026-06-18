@@ -1,0 +1,25 @@
+name: pulse
+on:
+  schedule:
+    - cron: '0 3 * * *'
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Gather real stats
+        run: |
+          COMMITS=$(git log --since="7 days ago" --oneline | wc -l)
+          LINES=$(cloc . --quiet --json | jq '.SUM.code')
+          sed -i "/AUTO-GENERATED:START/,/AUTO-GENERATED:END/c\\
+          <!-- AUTO-GENERATED:START -->\\
+          $COMMITS commits this week, $LINES lines touched\\
+          <!-- AUTO-GENERATED:END -->" README.md
+
+      - name: Commit and push
+        run: |
+          git config user.name "pulse-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -am "chore: nightly pulse update" || echo "nothing changed"
+          git push

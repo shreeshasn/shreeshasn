@@ -1,0 +1,17 @@
+name: skyline
+on:
+  schedule:
+    - cron: '0 4 * * *'
+jobs:
+  redraw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - run: python3 sources/scripts/build_skyline.py
+      - run: |
+          git config user.name "skyline-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add assets/skyline.svg
+          git commit -m "chore: redraw skyline" || echo "no change"
+          git push
