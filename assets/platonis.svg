@@ -1,21 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="180" viewBox="0 0 400 180" fill="none">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Background Gradient - Dark -->
+    <linearGradient id="bg-grad-dark" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0b0f19" />
       <stop offset="100%" stop-color="#111827" />
     </linearGradient>
     
-    <!-- Border Gradient: Dark Blue to Ocean Blue -->
-    <linearGradient id="border-grad-plat" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Border Gradient - Dark -->
+    <linearGradient id="border-grad-dark" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#1e293b" />
       <stop offset="100%" stop-color="#58a6ff" />
     </linearGradient>
     
-    <!-- Title Text Gradient -->
-    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Title Text Gradient - Dark -->
+    <linearGradient id="title-grad-dark" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#58a6ff" />
       <stop offset="100%" stop-color="#85b9ff" />
+    </linearGradient>
+    
+    <!-- Background Gradient - Light -->
+    <linearGradient id="bg-grad-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f6f8fa" />
+    </linearGradient>
+    
+    <!-- Border Gradient - Light -->
+    <linearGradient id="border-grad-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cbd5e1" />
+      <stop offset="100%" stop-color="#0969da" />
+    </linearGradient>
+    
+    <!-- Title Text Gradient - Light -->
+    <linearGradient id="title-grad-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0969da" />
+      <stop offset="100%" stop-color="#218bff" />
     </linearGradient>
 
     <!-- Drop Shadow Filter -->
@@ -24,22 +42,43 @@
     </filter>
   </defs>
 
+  <style>
+    /* Default / Dark Mode styles */
+    .card-rect { fill: url(#bg-grad-dark); stroke: url(#border-grad-dark); }
+    .title-text { fill: url(#title-grad-dark); }
+    .badge-rect { fill: #0f172a; stroke: #1f6feb; }
+    .badge-text { fill: #58a6ff; }
+    .sep-line { stroke: #1f2937; }
+    .desc-text { color: #9ca3af; }
+    #shadow feDropShadow { flood-opacity: 0.5; }
+    
+    @media (prefers-color-scheme: light) {
+      .card-rect { fill: url(#bg-grad-light); stroke: url(#border-grad-light); }
+      .title-text { fill: url(#title-grad-light); }
+      .badge-rect { fill: #eff6ff; stroke: #bfdbfe; }
+      .badge-text { fill: #0969da; }
+      .sep-line { stroke: #cbd5e1; }
+      .desc-text { color: #4b5563; }
+      #shadow feDropShadow { flood-opacity: 0.1; }
+    }
+  </style>
+
   <!-- Card Body -->
-  <rect x="2" y="2" width="396" height="176" rx="14" fill="url(#bg-grad)" stroke="url(#border-grad-plat)" stroke-width="2" filter="url(#shadow)" />
+  <rect class="card-rect" x="2" y="2" width="396" height="176" rx="14" stroke-width="2" filter="url(#shadow)" />
 
   <!-- Title -->
-  <text x="24" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="url(#title-grad)">🧠 Platonis.AI</text>
+  <text class="title-text" x="24" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700">🧠 Platonis.AI</text>
 
   <!-- Status / Role Badge -->
-  <rect x="290" y="16" width="86" height="22" rx="11" fill="#0f172a" stroke="#1f6feb" stroke-width="1" />
-  <text x="333" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#58a6ff" text-anchor="middle">WIP · Solo</text>
+  <rect class="badge-rect" x="290" y="16" width="86" height="22" rx="11" stroke-width="1" />
+  <text class="badge-text" x="333" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" text-anchor="middle">WIP · Solo</text>
 
   <!-- Separator line -->
-  <line x1="24" y1="52" x2="376" y2="52" stroke="#1f2937" stroke-width="1" />
+  <line class="sep-line" x1="24" y1="52" x2="376" y2="52" stroke-width="1" />
 
   <!-- Description -->
   <foreignObject x="24" y="64" width="352" height="60">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: system-ui, -apple-system, sans-serif; font-size: 13px; color: #9ca3af; line-height: 1.5; font-weight: 400; margin: 0; padding: 0;">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="desc-text" style="font-family: system-ui, -apple-system, sans-serif; font-size: 13px; line-height: 1.5; font-weight: 400; margin: 0; padding: 0;">
       RAG-powered placement prep platform with mock interviews, speech scoring, and adaptive assessments.
     </div>
   </foreignObject>
@@ -47,23 +86,23 @@
   <!-- Tech Stack Badges -->
   <g transform="translate(0, 136)">
     <!-- LangChain -->
-    <rect x="24" y="0" width="72" height="20" rx="6" fill="#0f172a" stroke="#1f6feb" stroke-width="1" />
-    <text x="60" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#58a6ff" text-anchor="middle">LangChain</text>
+    <rect class="badge-rect" x="24" y="0" width="72" height="20" rx="6" stroke-width="1" />
+    <text class="badge-text" x="60" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" text-anchor="middle">LangChain</text>
 
     <!-- ChromaDB -->
-    <rect x="104" y="0" width="72" height="20" rx="6" fill="#0f172a" stroke="#1f6feb" stroke-width="1" />
-    <text x="140" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#58a6ff" text-anchor="middle">ChromaDB</text>
+    <rect class="badge-rect" x="104" y="0" width="72" height="20" rx="6" stroke-width="1" />
+    <text class="badge-text" x="140" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" text-anchor="middle">ChromaDB</text>
 
     <!-- FastAPI -->
-    <rect x="184" y="0" width="58" height="20" rx="6" fill="#0f172a" stroke="#1f6feb" stroke-width="1" />
-    <text x="213" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#58a6ff" text-anchor="middle">FastAPI</text>
+    <rect class="badge-rect" x="184" y="0" width="58" height="20" rx="6" stroke-width="1" />
+    <text class="badge-text" x="213" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" text-anchor="middle">FastAPI</text>
 
     <!-- PyTorch -->
-    <rect x="250" y="0" width="58" height="20" rx="6" fill="#0f172a" stroke="#1f6feb" stroke-width="1" />
-    <text x="279" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#58a6ff" text-anchor="middle">PyTorch</text>
+    <rect class="badge-rect" x="250" y="0" width="58" height="20" rx="6" stroke-width="1" />
+    <text class="badge-text" x="279" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" text-anchor="middle">PyTorch</text>
 
     <!-- Next.js -->
-    <rect x="316" y="0" width="58" height="20" rx="6" fill="#0f172a" stroke="#1f6feb" stroke-width="1" />
-    <text x="345" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#58a6ff" text-anchor="middle">Next.js</text>
+    <rect class="badge-rect" x="316" y="0" width="58" height="20" rx="6" stroke-width="1" />
+    <text class="badge-text" x="345" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Next.js</text>
   </g>
 </svg>
