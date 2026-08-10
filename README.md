@@ -78,7 +78,7 @@ seeking:
         </a>
       </td>
       <td align="center">
-        <a href="https://audita.onrender.com">
+        <a href="https://audita-nkss.onrender.com">
           <picture>
             <source media="(prefers-color-scheme: dark)" srcset="./assets/audita-dark.svg"/>
             <source media="(prefers-color-scheme: light)" srcset="./assets/audita.svg"/>
