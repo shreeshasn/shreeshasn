@@ -2,20 +2,20 @@
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b0f19" />
-      <stop offset="100%" stop-color="#111827" />
+      <stop offset="0%" stop-color="#050505" />
+      <stop offset="100%" stop-color="#0a0a0a" />
     </linearGradient>
     
-    <!-- Border Gradient: Dark Blue to Ocean Blue -->
+    <!-- Border Gradient -->
     <linearGradient id="border-grad-plat" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1e293b" />
-      <stop offset="100%" stop-color="#58a6ff" />
+      <stop offset="0%" stop-color="#1a1a1a" />
+      <stop offset="100%" stop-color="#6b6b6b" />
     </linearGradient>
     
     <!-- Title Text Gradient -->
     <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#58a6ff" />
-      <stop offset="100%" stop-color="#85b9ff" />
+      <stop offset="0%" stop-color="#d4d4d4" />
+      <stop offset="100%" stop-color="#e8e8e8" />
     </linearGradient>
 
     <!-- Drop Shadow Filter -->
@@ -28,18 +28,25 @@
   <rect x="2" y="2" width="396" height="176" rx="14" fill="url(#bg-grad)" stroke="url(#border-grad-plat)" stroke-width="2" filter="url(#shadow)" />
 
   <!-- Title -->
-  <text x="24" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="url(#title-grad)">🧠 Platonis.AI</text>
+  <g transform="translate(24, 18)">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="url(#title-grad)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/>
+      <path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/>
+      <path d="M12 5v13"/>
+    </svg>
+  </g>
+  <text x="48" y="33" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="url(#title-grad)">Platonis.AI</text>
 
   <!-- Status / Role Badge -->
-  <rect x="290" y="16" width="86" height="22" rx="11" fill="#0f172a" stroke="#1f6feb" stroke-width="1" />
-  <text x="333" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#58a6ff" text-anchor="middle">WIP · Solo</text>
+  <rect x="290" y="16" width="86" height="22" rx="11" fill="#151515" stroke="#3a3a3a" stroke-width="1" />
+  <text x="333" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#a0a0a0" text-anchor="middle">WIP · Solo</text>
 
   <!-- Separator line -->
-  <line x1="24" y1="52" x2="376" y2="52" stroke="#1f2937" stroke-width="1" />
+  <line x1="24" y1="52" x2="376" y2="52" stroke="#1a1a1a" stroke-width="1" />
 
   <!-- Description -->
   <foreignObject x="24" y="64" width="352" height="60">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: system-ui, -apple-system, sans-serif; font-size: 13px; color: #9ca3af; line-height: 1.5; font-weight: 400; margin: 0; padding: 0;">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: system-ui, -apple-system, sans-serif; font-size: 13px; color: #6b6b6b; line-height: 1.5; font-weight: 400; margin: 0; padding: 0;">
       RAG-powered placement prep platform with mock interviews, speech scoring, and adaptive assessments.
     </div>
   </foreignObject>
@@ -47,23 +54,23 @@
   <!-- Tech Stack Badges -->
   <g transform="translate(0, 136)">
     <!-- LangChain -->
-    <rect x="24" y="0" width="72" height="20" rx="6" fill="#0f172a" stroke="#1f6feb" stroke-width="1" />
-    <text x="60" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#58a6ff" text-anchor="middle">LangChain</text>
+    <rect x="24" y="0" width="72" height="20" rx="6" fill="#151515" stroke="#3a3a3a" stroke-width="1" />
+    <text x="60" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#a0a0a0" text-anchor="middle">LangChain</text>
 
     <!-- ChromaDB -->
-    <rect x="104" y="0" width="72" height="20" rx="6" fill="#0f172a" stroke="#1f6feb" stroke-width="1" />
-    <text x="140" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#58a6ff" text-anchor="middle">ChromaDB</text>
+    <rect x="104" y="0" width="72" height="20" rx="6" fill="#151515" stroke="#3a3a3a" stroke-width="1" />
+    <text x="140" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#a0a0a0" text-anchor="middle">ChromaDB</text>
 
     <!-- FastAPI -->
-    <rect x="184" y="0" width="58" height="20" rx="6" fill="#0f172a" stroke="#1f6feb" stroke-width="1" />
-    <text x="213" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#58a6ff" text-anchor="middle">FastAPI</text>
+    <rect x="184" y="0" width="58" height="20" rx="6" fill="#151515" stroke="#3a3a3a" stroke-width="1" />
+    <text x="213" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#a0a0a0" text-anchor="middle">FastAPI</text>
 
     <!-- PyTorch -->
-    <rect x="250" y="0" width="58" height="20" rx="6" fill="#0f172a" stroke="#1f6feb" stroke-width="1" />
-    <text x="279" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#58a6ff" text-anchor="middle">PyTorch</text>
+    <rect x="250" y="0" width="58" height="20" rx="6" fill="#151515" stroke="#3a3a3a" stroke-width="1" />
+    <text x="279" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#a0a0a0" text-anchor="middle">PyTorch</text>
 
     <!-- Next.js -->
-    <rect x="316" y="0" width="58" height="20" rx="6" fill="#0f172a" stroke="#1f6feb" stroke-width="1" />
-    <text x="345" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#58a6ff" text-anchor="middle">Next.js</text>
+    <rect x="316" y="0" width="58" height="20" rx="6" fill="#151515" stroke="#3a3a3a" stroke-width="1" />
+    <text x="345" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#a0a0a0" text-anchor="middle">Next.js</text>
   </g>
 </svg>

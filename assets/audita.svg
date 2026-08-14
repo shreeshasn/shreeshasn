@@ -3,19 +3,19 @@
     <!-- Background Gradient -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="100%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#f5f5f5" />
     </linearGradient>
     
-    <!-- Border Gradient: Dark Blue to Ocean Blue -->
+    <!-- Border Gradient -->
     <linearGradient id="border-grad-aud" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#cbd5e1" />
-      <stop offset="100%" stop-color="#0969da" />
+      <stop offset="0%" stop-color="#d4d4d4" />
+      <stop offset="100%" stop-color="#6b6b6b" />
     </linearGradient>
     
     <!-- Title Text Gradient -->
     <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0969da" />
-      <stop offset="100%" stop-color="#1f88ff" />
+      <stop offset="0%" stop-color="#0a0a0a" />
+      <stop offset="100%" stop-color="#2a2a2a" />
     </linearGradient>
 
     <!-- Drop Shadow Filter -->
@@ -28,18 +28,24 @@
   <rect x="2" y="2" width="396" height="176" rx="14" fill="url(#bg-grad)" stroke="url(#border-grad-aud)" stroke-width="2" filter="url(#shadow)" />
 
   <!-- Title -->
-  <text x="24" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="url(#title-grad)">🔍 Audita</text>
+  <g transform="translate(24, 18)">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="url(#title-grad)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="11" cy="11" r="8"/>
+      <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+    </svg>
+  </g>
+  <text x="48" y="33" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="url(#title-grad)">Audita</text>
 
   <!-- Status / Role Badge -->
-  <rect x="290" y="16" width="86" height="22" rx="11" fill="#f0f6ff" stroke="#b4d3fe" stroke-width="1" />
-  <text x="333" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#0969da" text-anchor="middle">Live · Solo</text>
+  <rect x="290" y="16" width="86" height="22" rx="11" fill="#f0f0f0" stroke="#a0a0a0" stroke-width="1" />
+  <text x="333" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#2a2a2a" text-anchor="middle">Live · Solo</text>
 
   <!-- Separator line -->
-  <line x1="24" y1="52" x2="376" y2="52" stroke="#e5e7eb" stroke-width="1" />
+  <line x1="24" y1="52" x2="376" y2="52" stroke="#e0e0e0" stroke-width="1" />
 
   <!-- Description -->
   <foreignObject x="24" y="64" width="352" height="60">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: system-ui, -apple-system, sans-serif; font-size: 13px; color: #57606a; line-height: 1.5; font-weight: 400; margin: 0; padding: 0;">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: system-ui, -apple-system, sans-serif; font-size: 13px; color: #6b6b6b; line-height: 1.5; font-weight: 400; margin: 0; padding: 0;">
       GitHub repository health auditor built with reactive architecture and intelligent caching.
     </div>
   </foreignObject>
@@ -47,19 +53,19 @@
   <!-- Tech Stack Badges -->
   <g transform="translate(0, 136)">
     <!-- Spring Boot -->
-    <rect x="24" y="0" width="75" height="20" rx="6" fill="#f3f4f6" stroke="#cbd5e1" stroke-width="1" />
-    <text x="61" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#24292f" text-anchor="middle">Spring Boot</text>
+    <rect x="24" y="0" width="75" height="20" rx="6" fill="#f0f0f0" stroke="#d4d4d4" stroke-width="1" />
+    <text x="61" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#2a2a2a" text-anchor="middle">Spring Boot</text>
 
     <!-- Java -->
-    <rect x="107" y="0" width="44" height="20" rx="6" fill="#f3f4f6" stroke="#cbd5e1" stroke-width="1" />
-    <text x="129" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#24292f" text-anchor="middle">Java</text>
+    <rect x="107" y="0" width="44" height="20" rx="6" fill="#f0f0f0" stroke="#d4d4d4" stroke-width="1" />
+    <text x="129" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#2a2a2a" text-anchor="middle">Java</text>
 
     <!-- React -->
-    <rect x="159" y="0" width="48" height="20" rx="6" fill="#f3f4f6" stroke="#cbd5e1" stroke-width="1" />
-    <text x="183" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#24292f" text-anchor="middle">React</text>
+    <rect x="159" y="0" width="48" height="20" rx="6" fill="#f0f0f0" stroke="#d4d4d4" stroke-width="1" />
+    <text x="183" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#2a2a2a" text-anchor="middle">React</text>
 
     <!-- GitHub API -->
-    <rect x="215" y="0" width="76" height="20" rx="6" fill="#f3f4f6" stroke="#cbd5e1" stroke-width="1" />
-    <text x="253" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#24292f" text-anchor="middle">GitHub API</text>
+    <rect x="215" y="0" width="76" height="20" rx="6" fill="#f0f0f0" stroke="#d4d4d4" stroke-width="1" />
+    <text x="253" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#2a2a2a" text-anchor="middle">GitHub API</text>
   </g>
 </svg>
