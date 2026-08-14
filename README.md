@@ -162,18 +162,18 @@ seeking:
       <td align="center" valign="top">
         <a href="https://github.com/shreeshasn">
           <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shreeshasn/shreeshasn/desired_svgs/assets/github-readme-stats-dark.svg"/>
-            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shreeshasn/shreeshasn/desired_svgs/assets/github-readme-stats.svg"/>
-            <img src="https://raw.githubusercontent.com/shreeshasn/shreeshasn/desired_svgs/assets/github-readme-stats-dark.svg" width="400" alt="GitHub Readme Stats" />
+            <source media="(prefers-color-scheme: dark)" srcset="./assets/github-readme-stats-dark.svg"/>
+            <source media="(prefers-color-scheme: light)" srcset="./assets/github-readme-stats.svg"/>
+            <img src="./assets/github-readme-stats-dark.svg" width="400" alt="GitHub Readme Stats" />
           </picture>
         </a>
       </td>
       <td align="center" valign="top" rowspan="2" style="padding-left: 10px;">
         <a href="https://github.com/shreeshasn">
           <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shreeshasn/shreeshasn/desired_svgs/assets/github-top-langs-dark.svg"/>
-            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shreeshasn/shreeshasn/desired_svgs/assets/github-top-langs.svg"/>
-            <img src="https://raw.githubusercontent.com/shreeshasn/shreeshasn/desired_svgs/assets/github-top-langs-dark.svg" height="330" alt="Top Languages" />
+            <source media="(prefers-color-scheme: dark)" srcset="./assets/github-top-langs-dark.svg"/>
+            <source media="(prefers-color-scheme: light)" srcset="./assets/github-top-langs.svg"/>
+            <img src="./assets/github-top-langs-dark.svg" height="330" alt="Top Languages" />
           </picture>
         </a>
       </td>
@@ -182,9 +182,9 @@ seeking:
       <td align="center" valign="top" style="padding-top: 10px;">
         <a href="https://github.com/shreeshasn">
           <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shreeshasn/shreeshasn/desired_svgs/assets/github-streak-stats-dark.svg"/>
-            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shreeshasn/shreeshasn/desired_svgs/assets/github-streak-stats.svg"/>
-            <img src="https://raw.githubusercontent.com/shreeshasn/shreeshasn/desired_svgs/assets/github-streak-stats-dark.svg" width="400" alt="GitHub Streak Stats" />
+            <source media="(prefers-color-scheme: dark)" srcset="./assets/github-streak-stats-dark.svg"/>
+            <source media="(prefers-color-scheme: light)" srcset="./assets/github-streak-stats.svg"/>
+            <img src="./assets/github-streak-stats-dark.svg" width="400" alt="GitHub Streak Stats" />
           </picture>
         </a>
       </td>
@@ -199,9 +199,9 @@ seeking:
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shreeshasn/shreeshasn/desired_svgs/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shreeshasn/shreeshasn/desired_svgs/github-contribution-grid-snake.svg"/>
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/shreeshasn/shreeshasn/desired_svgs/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-grid-snake.svg"/>
+  <img alt="contribution snake" src="./assets/github-contribution-grid-snake-dark.svg"/>
 </picture>
 
 </div>
