@@ -11,7 +11,7 @@
 </pre>
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&duration=2500&pause=800&color=A0A0A0&center=true&vCenter=true&width=600&lines=I+build+things+that+think+%F0%9F%A7%A0;AI+systems+%2B+microservices+%2B+vibes;131M+rows+processed.+Still+not+impressed.;sudo+apt+install+good-ideas+--no-confirm"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&duration=2500&pause=800&color=A0A0A0&center=true&vCenter=true&width=600&lines=I+build+things+that+think!;AI+systems+%2B+microservices+%2B+vibes;131M+rows+processed.+Still+not+impressed.;sudo+apt+install+good-ideas+--no-confirm"/>
 </a>
 
 </div>
@@ -204,7 +204,7 @@ more_info:
 
 <br/>
 
-![Status](https://img.shields.io/badge/open%20to-internships%20%26%20collabs-a0a0a0?style=for-the-badge)
+![Status](https://img.shields.io/badge/open%20to-internships%20%26%20jobs-a0a0a0?style=for-the-badge)
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=shreeshasn&label=profile+views&color=6b6b6b&style=for-the-badge)
 
@@ -216,7 +216,7 @@ more_info:
 cat /dev/brutalist-portfolio | grep awesome
 
 Real developers don't need buttons.
-— SsN, probably
+— SSN, probably
 </pre>
 
 <!-- <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,50:1a1a1a,100:050505&height=100&section=footer" width="100%"/> -->
